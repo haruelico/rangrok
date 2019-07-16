@@ -1,19 +1,21 @@
 # Rangrok
-Short description and motivation.
+[![CircleCI](https://circleci.com/gh/haruelico/rangrok/tree/master.svg?style=svg)](https://circleci.com/gh/haruelico/rangrok/tree/master)
+
+Add `.ngrok.io` to `Rails.application.config.hosts` in development environment.
+
+(Naming is __Ra__ ils and ngrok.)
 
 ## Usage
-How to use my plugin.
-
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rangrok'
+gem 'rangrok', group: :development
 ```
 
 And then execute:
 ```bash
-$ bundle
+$ bundle install
 ```
 
 Or install it yourself as:
@@ -21,8 +23,10 @@ Or install it yourself as:
 $ gem install rangrok
 ```
 
+That's enough! The gem works without any configuration.
+
 ## Contributing
-Contribution directions go here.
+Bug reports and pull requests are welcome on GitHub at https://github.com/haruelico/rangrok.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
