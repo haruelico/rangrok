@@ -11,5 +11,9 @@ module Rangrok
     initializer 'rangrok_add_serveo_to_allowed_hosts' do
       Rails.application.config.hosts << ".serveo.net" if Rails.env.development?
     end
+
+    initializer 'rangrok_add_tunnelto_to_allowed_hosts' do
+      Rails.application.config.hosts << ".tunnelto.dev" if Rails.env.development?
+    end
   end
 end

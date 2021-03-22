@@ -1,7 +1,7 @@
 # Rangrok
 [![CircleCI](https://circleci.com/gh/haruelico/rangrok/tree/master.svg?style=svg)](https://circleci.com/gh/haruelico/rangrok/tree/master)
 
-Add `.ngrok.io` , `.localtunnel.me`, and `.serveo.net` to `Rails.application.config.hosts` in development environment.
+Add `.ngrok.io` , `.localtunnel.me`, `.serveo.net`,  and `.tunnelto.dev` to `Rails.application.config.hosts` in development environment.
 
 (Naming is __Ra__ ils and ngrok.)
 

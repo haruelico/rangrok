@@ -16,4 +16,8 @@ class Rangrok::Test < ActiveSupport::TestCase
   test 'allow request from "*.serveo.net"' do
     assert_includes Rails.application.config.hosts, ".serveo.net"
   end
+
+  test 'allow request from "*.tunnelto.dev"' do
+    assert_includes Rails.application.config.hosts, ".tunnelto.dev"
+  end
 end
